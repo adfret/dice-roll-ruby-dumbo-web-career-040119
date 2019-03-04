@@ -4,6 +4,6 @@
 
 def roll
 arr = []
-arr << 1+ rand(6)
+arr.shift( 1+ rand(6))
 arr
 end
