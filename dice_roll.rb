@@ -4,5 +4,5 @@
 
 def roll
 nums = (1..6)
-nums.sample()
+nums.rand(6)
 end
