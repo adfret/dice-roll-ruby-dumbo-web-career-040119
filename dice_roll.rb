@@ -3,5 +3,6 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
-puts rand(6)
+  range = (0..6)
+puts range.sample()
 end
