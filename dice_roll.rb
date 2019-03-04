@@ -5,5 +5,5 @@
 def roll
 arr = []
 arr << 1+ rand(6)
-arr.join
+arr
 end
