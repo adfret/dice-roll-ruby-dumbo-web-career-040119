@@ -4,5 +4,5 @@
 
 def roll
 krange = (0..6)
-puts krange.sample()
+krange.sample()
 end
